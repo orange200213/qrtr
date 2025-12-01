@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-struct sockaddr_qrtr;
+#struct sockaddr_qrtr;
 
 struct qrtr_ind_ops {
 	int (*bye)(uint32_t node, void *data);
